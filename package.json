@@ -1,0 +1,28 @@
+{
+  "name": "mernproject",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.18.3",
+    "npm": "6.14.15"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start":"node/app.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix clint && run build --prefix clint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.15"
+  }
+}

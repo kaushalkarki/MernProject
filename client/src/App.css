@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+.form-button{
+  margin: 0 00 0 10%;
+  border-radius: 10%;
+  color:black;
+  /* background-image: linear-gradient(45deg,grey,transparent); */
+}
+.home-page{
+  background-image: url("./images/skillsbg.png");
+  height: 100vh;
+
+}
+.i-field{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+#menu-show{
+display:none;
+};
+/* #menu--hide{
+display: inline !important;
+}; */
