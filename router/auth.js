@@ -8,12 +8,6 @@ const authenticate = require("../middleware/authenticate");
 
 router.use(express.json());
 
-router.get(
-  "/",
-  (async = (req, res) => {
-    res.send("Hello World from the fucking server");
-  })
-);
 router.get("/register", async (req, res) => {
   try {
     const studentsData = await User.find();
